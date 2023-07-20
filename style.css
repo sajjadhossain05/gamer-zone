@@ -193,7 +193,8 @@ nav ul li a {
 .video-text h2 span {
     color: #F144AE;
 }
-.video-text p{
+
+.video-text p {
     font-weight: 400;
     font-size: 1rem;
     color: #534C64;
@@ -209,47 +210,103 @@ nav ul li a {
 .video-cards img {
     width: 320px;
 }
-.card-title p{
+
+.card-title p {
     margin-top: 24px;
     color: #534C64;
     font-weight: 400;
     font-size: 1.25rem;
 }
+
 /* play-instantly, section */
 
-.play-instantly{
+.play-instantly {
     max-width: 1300px;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin-top: 120px;
-    margin-right: 190px;
     gap: 120px;
 
 }
-.play-instantly-img{
+
+.card-img-2 {
     position: relative;
+    top: -260px;
+    left: -130px;
 }
-.card-img-2{
-    position: absolute;
-    bottom: -100px;
-    left: -140px;
-}
-.play-instantly-title{
+
+.play-instantly-title {
     text-align: right;
 }
-.play-instantly-title h2{
+
+.play-instantly-title h2 {
     font-size: 3rem;
     font-weight: 700;
     color: #0B0223;
 }
-.play-style{
+
+.play-style {
     font-size: 3rem;
     font-weight: 700;
     color: #F144AE;
 }
 
+/* carees section */
+.Careers-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F144AE;
+}
+
+.Careers-option {
+    display: flex;
+    gap: 100px;
+    margin-top: 50px;
+
+}
+
+.option-2 {
+    text-align: right;
+}
+
+.careers-img {
+    width: 600px;
+
+}
+
+.Careers-content h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #FFFFFF;
+    margin-top: 28px;
+}
+
+.Careers-content p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+.option-1 p {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.positions-btn {
+    padding: 21px 40px;
+    border: none;
+    color: #F144AE;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 10px;
+    margin-top: 20px;
+}
 
 
 
@@ -267,7 +324,8 @@ nav ul li a {
     nav>ul {
         flex-direction: column;
     }
-/* banner section */
+
+    /* banner section */
     .banner-container {
         flex-direction: column-reverse;
     }
@@ -281,12 +339,14 @@ nav ul li a {
         margin-top: 50px;
         margin: auto;
     }
-/* group section */
 
-    .group-container{
+    /* group section */
+
+    .group-container {
         flex-direction: column;
         margin-top: 50px;
     }
+
     .group-img {
         width: 100%;
     }
@@ -294,31 +354,28 @@ nav ul li a {
     .group-text {
         text-align: center;
     }
+
     /* video card section */
-    .video-cards{
+    .video-cards {
         flex-direction: column;
     }
-    .video-cards img{
-        
+
+    .video-cards img {
+
         width: 100%;
     }
+
     /* play-instantly section */
-    .play-instantly{
+    .play-instantly {
         flex-direction: column;
     }
-    .play-instantly-img{
-        position: none;
+
+    .card-img-2 {
+        position: static;
+        width: 100%;
     }
-    .play-instantly-title{
-        text-align: center;
-    }
-    .card-img-2{
-        position: absolute;
-        bottom: -400px;
-        left: 100px;
-     
-    }
-    .card-img{
+
+    .card-img {
         width: 100%;
     }
 
