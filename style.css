@@ -263,7 +263,7 @@ nav ul li a {
 
 .Careers-option {
     display: flex;
-    gap: 100px;
+    gap: 50px;
     margin-top: 50px;
 
 }
@@ -376,6 +376,12 @@ nav ul li a {
     }
 
     .card-img {
+        width: 100%;
+    }
+    .Careers-container{
+        flex-direction: column;
+    }
+    .careers-img{
         width: 100%;
     }
 
