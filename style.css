@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* shares style */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* header style */
+
+/* nav section */
+nav {
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    padding: 25px 0;
+}
+
+nav>ul {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+nav ul .icone-img {
+    display: flex;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px 24px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li:hover {
+    border-bottom: 2px solid #F144AE;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #3C354F;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.gamer-logo {
+    display: flex;
+    align-items: center;
+    font-size: 2.1rem;
+    gap: 20px;
+}
+
+.nav-logo {
+    width: 80px;
+}
+
+.logo-span {
+    color: #FF42A5;
+}
+
+/* nav section end */
+
+
+/* banner section */
+.banner-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+/* .banner-text {
+    background-image: url(./images/group14.png);
+    padding: 150px 300px 150px 240px;
+    background-repeat: no-repeat;
+    border: 2px solid tomato;
+    width: 901px;
+    height: 700px;;
+
+} */
+
+.banner-text h3 {
+    color: #0B0223;
+    font-size: 3rem;
+}
+
+.banner-text H1 {
+    color: #FF42A5;
+    background-clip: text;
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+
+.banner-text p {
+    color: #534C64;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 17px;
+    margin-top: 24px;
+}
+
+.praimary-button {
+    padding: 21px 40px;
+    border-radius: 48px;
+    color: #FFFFFF;
+    background-color: #F144AE;
+    border: none;
+    text-transform: uppercase;
+}
+
+.secondary-button {
+    padding: 21px 40px;
+    border-radius: 48px;
+    color: #FFFFFF;
+    background-color: #4EC5F7;
+    border: none;
+    text-transform: uppercase;
+    margin-left: 24px;
+}
+
+/* main section */
+
+
+
+/* group section */
+.group-container {
+    display: flex;
+    text-align: right;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    ;
+}
+
+.group-text h2 {
+    color: #F144AE;
+    font-weight: 700;
+    font-size: 3rem;
+
+}
+
+.group-text p {
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.btn-edit {
+    margin-top: 32px;
+}
+
+.purpose {
+    color: #534C64;
+    font-weight: 500px;
+    font-size: 1.5rem;
+}
+
+.group-text h4 {
+    color: #534C64;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/* video sectiom */
+.video-container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.video-text {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.video-text h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    color: #0B0223;
+}
+
+.video-text h2 span {
+    color: #F144AE;
+}
+.video-text p{
+    font-weight: 400;
+    font-size: 1rem;
+    color: #534C64;
+    margin-top: 16px;
+}
+
+.video-cards {
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.video-cards img {
+    width: 320px;
+}
+.card-title p{
+    margin-top: 24px;
+    color: #534C64;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+/* play-instantly, section */
+
+.play-instantly{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 120px;
+    margin-right: 190px;
+    gap: 120px;
+
+}
+.play-instantly-img{
+    position: relative;
+}
+.card-img-2{
+    position: absolute;
+    bottom: -100px;
+    left: -140px;
+}
+.play-instantly-title{
+    text-align: right;
+}
+.play-instantly-title h2{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #0B0223;
+}
+.play-style{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #F144AE;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        box-shadow: none;
+        padding: 0;
+    }
+
+    nav>ul {
+        flex-direction: column;
+    }
+/* banner section */
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+
+    .banner-img {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .banner-text {
+        margin-top: 50px;
+        margin: auto;
+    }
+/* group section */
+
+    .group-container{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    .group-img {
+        width: 100%;
+    }
+
+    .group-text {
+        text-align: center;
+    }
+    /* video card section */
+    .video-cards{
+        flex-direction: column;
+    }
+    .video-cards img{
+        
+        width: 100%;
+    }
+    /* play-instantly section */
+    .play-instantly{
+        flex-direction: column;
+    }
+    .play-instantly-img{
+        position: none;
+    }
+    .play-instantly-title{
+        text-align: center;
+    }
+    .card-img-2{
+        position: absolute;
+        bottom: -400px;
+        left: 100px;
+     
+    }
+    .card-img{
+        width: 100%;
+    }
+
+}
