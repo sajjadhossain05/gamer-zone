@@ -477,8 +477,10 @@ nav ul li a {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
+
     }
     .icone{
         gap: 20px;
+
     }
 }
