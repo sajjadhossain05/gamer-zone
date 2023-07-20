@@ -310,6 +310,92 @@ nav ul li a {
 
 
 
+/* .cards-1, .cards-2{
+    display: flex;
+    justify-content: center;
+    gap: 27px;
+    margin-top: 50px;
+}
+
+.cards-1 p, .cards-2 p{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+/* card sectiom hide */
+/* .mini-cards-container-2{
+    visibility: hidden;
+}
+.cards-1, .cards-2, .cards-3{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+.cards-1 p, .cards-2 p, .cards-3 p{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+} */
+
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    background-color: #0B0223;
+}
+
+.footer-logo {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    justify-content: center;
+}
+
+.span-g {
+    color: #F144AE;
+}
+
+.footer-manue {
+    display: flex;
+    gap: 70px;
+    color: #FFF;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.icone {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.terms {
+    display: flex;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.60);
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 30px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.footer-style {
+    margin: 90px 0;
+}
+
+
+
+/* responsib site */
+
 @media screen and (max-width: 576px) {
     nav {
         flex-direction: column;
@@ -378,11 +464,21 @@ nav ul li a {
     .card-img {
         width: 100%;
     }
-    .Careers-container{
+
+    .Careers-container {
         flex-direction: column;
     }
-    .careers-img{
+
+    .careers-img {
         width: 100%;
     }
 
+    .footer-manue{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+    .icone{
+        gap: 20px;
+    }
 }
